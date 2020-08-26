@@ -1,7 +1,24 @@
+import {pipe} from "fp-ts/pipeable";
+
 const assert = require('assert');
 
 function add (a: number, b: number) {
     return a + b;
+}
+
+function getProjectStuff() {
+    return ([])
+}
+
+// example of using fp-ts
+function pipeStuff() {
+    return pipe(
+        {
+            stuff: getProjectStuff(),
+            users: [5],
+            configuration: {}
+        }
+    )
 }
 
 const expected = add(1,2);

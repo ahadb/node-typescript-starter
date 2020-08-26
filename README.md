@@ -31,6 +31,8 @@ this repo is for you.
 "tslint": "^6.1.3",
 "typescript": "^4.0.2"
 "@types/buffer-from": "^1.1.0"
+"fp-ts": "^2.8.2",
+"io-ts": "^2.2.10"
 ```
 
 Try Definitely Typed! Happy tinkering!
